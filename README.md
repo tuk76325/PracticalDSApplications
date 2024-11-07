@@ -39,3 +39,8 @@ The data. The New Yorker allows readers to vote on the submitted captions. For t
 The United States Congress is the part of the US government that makes laws for the entire country. It is dominated by two rival political parties, the Democrats and the Republicans. One would expect that these parties oppose each other on most issues but occasionally agree.
 
 Some have conjectured that, over time, the two parties agree less and less, which would reflect a perceived growing ideological or political divide in the US. But is that the real trend? In this problem, we'll explore this question using data collected by ProPublica, a nonprofit investigative media organization.
+
+# ANALYSIS OF NYC 311 CALLS
+We will start with a large database of complaints filed by residents of New York City via 311 calls. The full dataset is available at the NYC open data portal. Our subset is about 6 GB and 10 million complaints, so we can infer that a) we might not want to read it all into memory at once, and b) NYC residents have a lot to complain about. (Maybe only conclusion "a" is valid.) The notebook then combines the use of sqlite, pandas, and bokeh.
+
+
